@@ -5,6 +5,15 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 ## Table of contents
 
 - [Overview](#overview)
+. First, I created style.css and put all the necessary design properties there.
+. imported google-fonts link,
+. set the universal selector,
+. set the css-variables in :root selector
+. set the body styling,
+. then secondly , I created index.html to build the structure of my web-app with semantic markups,
+. linked script tag of the ionicon.com, to get icons,
+. and accordingly set the styling of the rest of the structure;
+. I applied mobile-first approach in dark-mode.
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)

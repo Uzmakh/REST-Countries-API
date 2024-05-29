@@ -24,6 +24,9 @@ body {
   justify-content: center;
   align-items: center; */
 }
+
+
+/* Mobile-First Approachs */
 header {
   /* border: 1px solid red; */
   display: flex;
@@ -87,5 +90,26 @@ option{
     outline: none;
     border: none;
     border-radius: 8px; 
+}
+.countries{
+  border: 2px solid red;
+  padding: 10px;
+  max-width: 370px;
+  text-align: center;
+}
+.country{
+  border: 2px solid red;
+  width: 300px;
+  background: var(--dark-mode-elements);
+  text-align: left;
+margin: 30px;
+}
+
+.country-img img{
+width: 100%;
+}
+.country-detail{
+  padding: 40px;
+  color: var(--dark-mode-text);
 }
 
