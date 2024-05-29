@@ -19,14 +19,10 @@
 body {
   font-family: var(--primary-font);
   background: var(--dark-mode-background);
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
-
-/* Mobile-First Approachs */
+/* Mobile-First Approach */
+/* --------header--------*/
 header {
   /* border: 1px solid red; */
   display: flex;
@@ -49,6 +45,8 @@ header p {
   margin-top: 8px;
   font-size: 12px;
 }
+
+/* --------main--------*/
 main {
   text-align: center;
 }
@@ -57,7 +55,7 @@ input {
   width: 90%;
   height: 45px;
   margin-top: 30px;
-   outline: none;
+  outline: none;
   border: none;
   border-radius: 8px;
   text-indent: 70px;
@@ -73,43 +71,44 @@ input {
     color: var(--dark-mode-text);
 
 } */
-select{
-    background: var(--dark-mode-elements);
-    width: 45%;
-    height: 45px;
-    margin-top: 30px;
-    outline: none;
-    border: none;
-    border-radius: 8px; 
-    color: var(--dark-mode-text); 
-    margin-right: 170px;
- padding-left: 20px;
+select {
+  background: var(--dark-mode-elements);
+  width: 45%;
+  height: 45px;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: var(--dark-mode-text);
+  margin-right: 170px;
+  padding-left: 20px;
+}
+option {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
 
-}
-option{
-    outline: none;
-    border: none;
-    border-radius: 8px; 
-}
-.countries{
+/* --------countries--------*/
+
+.countries {
   border: 2px solid red;
   padding: 10px;
   max-width: 370px;
   text-align: center;
 }
-.country{
+.country {
   border: 2px solid red;
   width: 300px;
   background: var(--dark-mode-elements);
   text-align: left;
-margin: 30px;
+  margin: 30px;
 }
 
-.country-img img{
-width: 100%;
+.country-img img {
+  width: 100%;
 }
-.country-detail{
+.country-detail {
   padding: 40px;
   color: var(--dark-mode-text);
 }
-
