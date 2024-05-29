@@ -11,6 +11,7 @@ Thanks for checking out this front-end coding challenge.
 **To do this challenge, you need a good understanding of HTML, CSS, and JavaScript.**
 
 ## The challenge
+## The Layout
 
 Your challenge is to integrate with the [REST Countries API](https://restcountries.com) to pull country data and display it like in the designs.
 
