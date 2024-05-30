@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Single Country Page</title>
+</head>
+<body>
+      <!--------------======  header  ======---------------->
+      <header>
+        <h1>Where in the World?</h1>
+        <div class="mode">
+          <ion-icon name="moon" class="moon"></ion-icon>
+          <p>Dark Mode</p>
+        </div>
+      </header>
+ 
+
+      
+
+       <!--------------======  main  ======---------------->
+       <main>
+        <button type="button">
+            <a href="#">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+          &nbsp;
+          <span>  Back</span>
+        
+      </a>
+    </button>
+      
+
+     <!--------------======  country-details  ======---------------->
+      
+     <div class="country-details">
+        <img src="https://flagcdn.com/md.svg" alt="country-flag" />
+        <div class="details-text-container">
+          <h1>Iceland</h1>
+          <div class="details-text">
+            <p><b>Native Name: </b><span class="native-name"></span></p>
+            <p><b>Population: </b><span class="population"></span></p>
+            <p><b>Region: </b><span class="region"></span></p>
+            <p><b>Sub Region: </b><span class="sub-region"></span></p>
+            <p><b>Capital: </b><span class="capital"></span></p>
+            <p>
+              <b>Top Level Domain: </b><span class="top-level-domain"></span>
+            </p>
+            <p><b>Currencies: </b><span class="currencies"></span></p>
+            <p><b>Languages: </b><span class="languages"></span></p>
+          </div>
+          <div class="border-countries"><b>
+            <p>Border Countries: &nbsp; &nbsp;<a href="#3">France</a></b>&nbsp;
+            <a href="#3">Portugal</a>
+        </p>
+        </div>
+        </div>
+      </div>
+    </div>
+       </main>
+
+
+    <!-- JS_File -->
+    <script src="country.js"></script>
+    
+      <!-- Icon-Library -->
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+</body>
+</html>
